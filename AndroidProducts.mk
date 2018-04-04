@@ -13,3 +13,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/syberia_oneplus6t.mk
+
+COMMON_LUNCH_CHOICES := \
+    syberia_oneplus6t-user \
+    syberia_oneplus6t-userdebug \
+    syberia_oneplus6t-eng
