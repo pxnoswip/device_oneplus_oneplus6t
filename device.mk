@@ -193,7 +193,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.sdm845 \
     libcutils \
-    libgptutils \
+    libgptutils.oneplus_sdm845.recovery \
     libz
 
 PRODUCT_PACKAGES_DEBUG += \
