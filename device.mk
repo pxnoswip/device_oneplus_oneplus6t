@@ -84,7 +84,10 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 # Display
 PRODUCT_PACKAGES += \
     libvulkan \
-    vendor.display.config@1.0
+    libdisplayconfig \
+    libqdMetaData.system \
+    vendor.display.config@1.7
+
 
 # Hostapd
 PRODUCT_COPY_FILES += \
@@ -121,6 +124,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.oneplus_sdm845
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    lineage.livedisplay@2.0-service.oneplus_sdm845
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles_vendor.xml:system/etc/media_profiles_vendor.xml
@@ -132,6 +139,9 @@ PRODUCT_PACKAGES += \
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.1 \
+    android.hardware.secure_element@1.0 \
+    vendor.nxp.nxpese@1.0 \
+    vendor.nxp.nxpnfc@1.0 \
     com.android.nfc_extras \
     Tag
 
