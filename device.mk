@@ -42,3 +42,7 @@ $(call inherit-product, device/oneplus/sdm845-common/common.mk)
 
 # Inherit from vendor blobs
 #$(call inherit-product, vendor/oneplus/fajita/fajita-vendor.mk)
+
+# Fingerprint
+PRODUCT_PACKAGES += \
+    omni.biometrics.fingerprint.inscreen@1.0-service.oneplus6t
