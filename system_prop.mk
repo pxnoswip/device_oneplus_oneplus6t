@@ -146,3 +146,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.lmk.kill_timeout_ms=100 \
     ro.lmk.use_minfree_levels=true \
     ro.lmk.use_psi=true
+
+# Fingerprint
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.vendor.sys.fp.fod.location.X_Y=444,1966 \
+    persist.vendor.sys.fp.fod.size.width_height=190,190
