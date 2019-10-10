@@ -4,5 +4,6 @@ soong_namespace {
 
 subdirs = [
     "lights",
-    "livedisplay"
+    "livedisplay",
+    "fod"
 ]
