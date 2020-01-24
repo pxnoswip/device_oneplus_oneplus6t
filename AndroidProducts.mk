@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 Syberia Project
+# Copyright (C) 2018 aosp Project
 #
 # This file should set PRODUCT_MAKEFILES to a list of product makefiles
 # to expose to the build system.  LOCAL_DIR will already be set to
@@ -12,9 +12,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_oneplus6t.mk
+    $(LOCAL_DIR)/aosp_oneplus6t.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_oneplus6t-user \
-    syberia_oneplus6t-userdebug \
-    syberia_oneplus6t-eng
+    aosp_oneplus6t-user \
+    aosp_oneplus6t-userdebug \
+    aosp_oneplus6t-eng
