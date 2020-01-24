@@ -19,6 +19,9 @@ BOARD_VENDOR := oneplus
 VENDOR_PATH := device/oneplus/oneplus6t
 ANDROID_TOP := $(shell pwd)
 
+TARGET_OTA_ASSERT_DEVICE := OnePlus6,OnePlus6T
+
+
 # Compile libhwui in performance mode
 HWUI_COMPILE_FOR_PERF := true
 
