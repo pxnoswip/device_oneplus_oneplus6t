@@ -772,9 +772,7 @@
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
 
     <!-- Show a custom view for FOD -->
-    <bool name="config_needCustomFODView">true</bool>
-
-    <bool name="config_usesOnePlusFOD">true</bool>
+    <bool name="config_usesFOD">true</bool>
 
     <!-- Set default live wallpaper -->
     <string name="default_wallpaper_component" translatable="false">com.breel.wallpapers19/.doodle.wallpaper.variations.DoodleWallpaperV1</string>
